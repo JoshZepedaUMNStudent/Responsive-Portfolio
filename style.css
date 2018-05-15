@@ -1,0 +1,53 @@
+body {
+    background-color: #dddddd;
+}
+
+#header {
+    background-color: #ffffff;
+    height: 80px;
+    margin-bottom: 50px;
+}
+
+#tab {
+    background-color: #4aaaa5;
+    width: 200px;
+    height: 80px;
+    padding-top: 20px;
+    margin-left: 250px;
+}
+
+.navlinks {
+    float: right;
+}
+
+#profile {
+    background-color: #ffffff;
+    width: 960px;
+    height: 500px;
+    padding: 15;
+    margin-left: 250px;
+    margin-bottom: 65px;
+}
+
+#contact {
+    background-color: #ffffff;
+    width: 960px;
+    height: 500px;
+    padding-left: 50px;
+    margin-left: 250px;
+    margin-bottom: 65px;
+}
+
+#portfolio {
+    background-color: #ffffff;
+    width: 960px;
+    height: 500px;
+    margin-left: 250px;
+    margin-bottom: 65px;
+}
+
+
+#footer {
+    background-color: #666666;
+    height:80px;
+}
