@@ -215,3 +215,15 @@ input[type=submit] {
   background: #4aaaa5;
   border: 0 none;
 }
+
+@media screen and (max-width: 980px) {
+    #main-container {width: 200px;  height: 200px;} 
+    .auth-image {width: 50px; height: 60;} 
+        
+}
+@media screen and (max-width: 768px) {
+
+}
+@media screen and (max-width: 640px) {
+
+}
