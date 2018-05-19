@@ -1,42 +1,66 @@
-<!DOCTYPE>
-
-<html>
+<!doctype html>
+<html lang="en-us">
 
 <head>
-<link rel="stylesheet" type="text/css" href="style.css">
+  <meta charset="UTF-8">
+  <title>Portfolio | Your Name</title>
+  <link rel="stylesheet" type="text/css" href="reset.css">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <style>
+    @media screen and (min-width: 980px) {
+
+    }
+    @media screen and (min-width: 768px) {
+
+    }
+    @media screen and (min-width: 640px) {
+
+    }
+  </style>
 </head>
 
 <body>
 
-        <section id="header">
+  <header id="masthead">
+    <div class="container">
+      <a href="index.html" id="logo">Your Name</a>
+      <nav>
+        <a href="index.html">About</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
 
-                <section id="tab">
-                        <p style="text-align:center; font-size:20; color:white">Josh Zepeda</p> 
-                </section>
-                        
-                <nav>
-                        <ul>
-                        <li  class="navlinks"><a href="contact.html">Contact</a></li><br>  
-                        <li  class="navlinks"><a href="portfolio.html">Portfolio</a></li><br>   
-                        <li  class="navlinks"><a href="index.html">About</a></li><br>  
-                        </ul>
-                </nav>
-                                
-        </section>
+  <div id="main-container" class="container">
+    <section class="main-section">
+      <h1>Portfolio</h1>
 
-        <section id="portfolio">
-                <p style="font-size:18">Portfolio</p>   
-                <p>Here are some of my hobbies</p>      
-                <img src="https://images-na.ssl-images-amazon.com/images/I/714SGK7Zm3L._SL1500_.jpg" class="img-responsive" width="100" height="100"/>
-                <img src="http://www.slate.com/content/dam/slate/blogs/lexicon_valley/2014/08/04/novel_increasingly_used_to_mean_any_book_fiction_or_nonfiction/books_novels.jpg.CROP.promo-mediumlarge.jpg" class="img-responsive" width="100" height="100"/>
-                <img src="https://www.stebaldrums.com/wp-content/uploads/2015/04/45th-1.jpg" class="img-responsive" width="100" height="100"/>
-                <p>Places I'd like to travel to</p>
-                <img src="https://www.worldtravelguide.net/wp-content/uploads/2017/03/Think-Argentina-SanCarlosdeBariloche-155152108-Kalistratova-copy.jpg" class="img-responsive" width="100" height="100"/>
-                <img src="https://puremoroccotours.com/wp-content/uploads/2016/02/Panoramic-view-of-Chefchaouen.jpg" class="img-responsive" width="100" height="100"/>
-        </section>
+      <div class="work">
+        <img src="assets/kayak.jpeg" width="200" height="200" alt="Kayaking">
+        
+        <h4>Kayaking</h4>
+      </div>
+      <div class="work">
+        <img src="assets/books.jpeg" width="200" height="200" alt="Reading">
 
-        <section id="footer">
-        </section>
+        <h4>Reading</h4>
+      </div>
+      <div class="work">
+        <img src="assets/drums.jpeg" width="200" height="200" alt="Drumming">
+        
+        <h4>Drumming</h4>
+      </div>
 
+    </section>
+
+  </div>
+
+  <footer>
+    <div class="container">
+      Copyright &copy; 
+    </div>
+  </footer>
 </body>
+
 </html>

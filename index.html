@@ -1,40 +1,59 @@
-<!DOCTYPE>
-
-<html>
+<!doctype html>
+<html lang="en-us">
 
 <head>
-<link rel="stylesheet" type="text/css" href="style.css">
+  <meta charset="UTF-8">
+  <title>About | Your Name</title>
+  <link rel="stylesheet" type="text/css" href="reset.css">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <style>
+    @media screen and (max-width: 980px) {
+        #main-container {width: 60%; float: left;}       
+    }
+    @media screen and (min-width: 768px) {
+
+    }
+    @media screen and (min-width: 640px) {
+
+    }
+  </style>
+    
 </head>
 
 <body>
 
-        <section id="header">
+  <header id="masthead">
+    <div class="container">
+      <a href="index.html" id="logo">Your Name</a>
+      <nav>
+        <a href="index.html">About</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
 
-                <section id="tab">
-                        <p style="text-align:center; font-size:20; color:white">Josh Zepeda</p>          
-                </section>
+  <div id="main-container" class="container">
+    <section class="main-section">
+      <h1>About Me</h1>
 
-                <nav>
-                        <ul>
-                        <li  class="navlinks"><a href="contact.html">Contact</a></li><br>   
-                        <li  class="navlinks"><a href="portfolio.html">Portfolio</a></li><br>
-                        <li  class="navlinks"><a href="index.html">About</a></li><br>   
-                        </ul>
-                </nav>
+      <img src="assets/me.jpeg" class="auth-image" alt="Josh Zepeda">
 
-        </section>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam vestibulum luctus felis, ac rhoncus nunc porttitor condimentum. Mauris sit amet dolor eu elit varius varius facilisis id arcu. Proin vel dui massa. Nunc rhoncus fringilla pharetra. Vestibulum bibendum consectetur euismod. Proin commodo purus vitae sollicitudin consectetur.</p>
 
+      <p>Donec vehicula lacus at leo feugiat lacinia. In et ex ultrices, ultrices neque non, pretium odio. Nunc id eros iaculis, pulvinar quam eget, egestas mauris.</p>
 
-        <section id="profile">
-                <img src="https://secure.meetupstatic.com/photos/member/d/9/3/f/highres_275815615.jpeg" width="200" height="230"/>
-                <p>Hi there. My name is Josh and this website is still a work in progress. 
-                I currently work as a document processor for a major bank and am aslo a part-time student in a web development training program. 
-                The skills I learn during the curriculum will allow me to make gradual improvements to this site. 
-                In the meantime, enjoy!</p>
-        </section>
+      <p>Suspendisse dictum, arcu at convallis faucibus, quam sapien tincidunt nunc, sit amet egestas nibh tortor et mi. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
 
-        <section id="footer">
-        </section>
+    </section>
 
+  </div>
+
+  <footer>
+    <div class="container">
+      Copyright &copy; 
+    </div>
+  </footer>
 </body>
+
 </html>
