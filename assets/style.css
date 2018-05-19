@@ -217,13 +217,17 @@ input[type=submit] {
 }
 
 @media screen and (max-width: 980px) {
-    #main-container {width: 200px;  height: 200px;} 
-    .auth-image {width: 50px; height: 60;} 
-        
+  #main-container {width: 50%; height: auto; float: left;}
+  .auth-image {width: 25%; height: auto;}
+  p {font-size: 50%}  
+
 }
 @media screen and (max-width: 768px) {
-
+  #main-container {width: 90%; height: auto;}  
+  p {font-size: 75%;}   
+  
 }
 @media screen and (max-width: 640px) {
-
+  .auth-image {width: 95%;}
+  #masthead {position: static;}
 }
